@@ -27,10 +27,10 @@ To create the infrastructure, run the following command:
             
             # Create the infrastructure
             # Clone the repo
-            git clone https://github.com/ifeLight/udacity-udagram-submision.git project-app
+            git clone https://github.com/mustafaDevop/high-availability-web-app
 
             # Change directory
-            cd project-app
+            cd high-availability-web
 
             # Make the script executable
             sudo chmod +x create-servers.sh
