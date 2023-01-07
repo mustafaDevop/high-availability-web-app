@@ -58,3 +58,7 @@ In YAML code, the ${EnvironmentName} would be substituted with UdacityProject ac
 ### Here is the link while it last
 
             http://udacity-loadbalancer-1215285312.us-west-2.elb.amazonaws.com/
+            
+ ![loadbalancer screenshot](https://user-images.githubusercontent.com/94189602/211167955-8c2fd3a4-7534-450d-acd8-74492883fc32.PNG)
+
+      
