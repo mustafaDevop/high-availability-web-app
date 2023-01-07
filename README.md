@@ -16,7 +16,7 @@ Diagram
 Usage
 Make sure you have the following installed:
 
- [AWS CLI] (https://aws.amazon.com/cli/)[AWS CLI](https://aws.amazon.com/cli/)
+ [AWS CLI](https://aws.amazon.com/cli/)
 Set up your AWS credentials:
 
       aws configure
