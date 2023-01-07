@@ -36,16 +36,18 @@ To create the infrastructure, run the following command:
 
 # Run the script, replace {stack-name} with your own stack name
                   ./create-servers.sh {stack-name}
-                To update the infrastructure, run the following command:
+                
 
 # Make the script executable
+            To update the infrastructure, run the following command:
           sudo chmod +x update-servers.sh
 
 # Run the script, replace {stack-name} with your own stack name
                       ./update.sh {stack-name}
       
-      To delete the infrastructure, run the following command:
+      
 # Make the script executable
+            To delete the infrastructure, run the following command:
           sudo chmod +x delete-servers.sh
 
 # Run the script, replace {stack-name} with your own stack name
