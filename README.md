@@ -54,3 +54,7 @@ In YAML code, the ${EnvironmentName} would be substituted with UdacityProject ac
 
                   # Run the script, replace {stack-name} with your own stack name
                   ./delete.sh {stack-name}
+                  
+### Here is the link while it last
+
+            http://udacity-loadbalancer-1215285312.us-west-2.elb.amazonaws.com/
