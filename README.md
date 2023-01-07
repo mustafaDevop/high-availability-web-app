@@ -8,7 +8,7 @@ Students have to write the CloudFormation code using this YAML template for buil
 server-parameters.json
 Students may use a JSON file for increasing the generic nature of the YAML code. For example, the JSON file contains a "ParameterKey" as "EnvironmentName" and "ParameterValue" as "UdacityProject".
 
-In YAML code, the ${EnvironmentName} would be substituted with UdacityProject accordingly.
+In YAML code, the ${Udacity} would be substituted with UdacityProject accordingly.
 
 Diagram
 ![architecture diagram](https://user-images.githubusercontent.com/94189602/211149271-c8fb7339-57c6-4ad7-8553-32bd80377654.PNG)
@@ -25,10 +25,11 @@ To create the infrastructure, run the following command:
 
 # Create the infrastructure
 # Clone the repo
-        git clone https://github.com/ifeLight/udacity-udagram-submision.git project-app
+       
+       git clone https://github.com/mustafaDevop/high-availability-web-app.git 
 
 # Change directory
-                cd project-app
+                cd high-availability
 
 # Make the script executable
           sudo chmod +x create-servers.sh
@@ -42,8 +43,8 @@ To create the infrastructure, run the following command:
 
 # Run the script, replace {stack-name} with your own stack name
                       ./update.sh {stack-name}
-        To delete the infrastructure, run the following command:
-
+      
+      To delete the infrastructure, run the following command:
 # Make the script executable
           sudo chmod +x delete-servers.sh
 
