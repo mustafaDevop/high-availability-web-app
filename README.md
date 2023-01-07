@@ -16,7 +16,7 @@ Diagram
 Usage
 Make sure you have the following installed:
 
-+kAWS CLI
++k AWS CLI
 Set up your AWS credentials:
 
       aws configure
