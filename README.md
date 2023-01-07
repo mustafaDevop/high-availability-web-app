@@ -14,16 +14,16 @@ In YAML code, the ${EnvironmentName} would be substituted with UdacityProject ac
 ![architecture diagram](https://user-images.githubusercontent.com/94189602/211149271-c8fb7339-57c6-4ad7-8553-32bd80377654.PNG)
 
 
-Usage
-Make sure you have the following installed:
+### Usage
+### Make sure you have the following installed:
 
 * [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
-Set up your AWS credentials:
+### Set up your AWS credentials:
 
             aws configure
       
-To create the infrastructure, run the following command:
+### To create the infrastructure, run the following command:
             
             # Create the infrastructure
             # Clone the repo
@@ -39,7 +39,7 @@ To create the infrastructure, run the following command:
             ./create-servers.sh {stack-name}
 
 
-  To update the infrastructure, run the following command:
+### To update the infrastructure, run the following command:
             
             # Make the script executable
             sudo chmod +x update-servers.sh
@@ -47,7 +47,7 @@ To create the infrastructure, run the following command:
             # Run the script, replace {stack-name} with your own stack name
             ./update.sh {stack-name}
   
-  To delete the infrastructure, run the following command:
+### To delete the infrastructure, run the following command:
                   
                   # Make the script executable
                   sudo chmod +x delete-servers.sh
